@@ -76,6 +76,8 @@ dependencies {
     // Corrutinas (si quieres usar suspend y llamar desde ViewModel)
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
+    implementation ("io.coil-kt:coil-compose:2.4.0")
+
     // (Opcional) Logging HTTP requests
     implementation("com.squareup.okhttp3:logging-interceptor:4.9.3")
 }
